@@ -1,6 +1,8 @@
 package com.rex.myapplication.app;
 
 import android.app.Application;
+import android.os.Looper;
+
 import com.facebook.stetho.Stetho;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 import okhttp3.OkHttpClient;

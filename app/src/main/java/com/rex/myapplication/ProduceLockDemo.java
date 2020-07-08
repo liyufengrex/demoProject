@@ -128,24 +128,24 @@ public class ProduceLockDemo {
         pool.execute(new SaleRunnable(demo));
         pool.execute(new SaleRunnable(demo));
         pool.execute(new SaleRunnable(demo));
-//        pool.execute(new ProduceRunnable(demo,"1"));
-//        pool.execute(new ProduceRunnable(demo,"2"));
-//        pool.execute(new ProduceRunnable(demo,"3"));
-//        pool.execute(new ProduceRunnable(demo,"4"));
-//        pool.execute(new ProduceRunnable(demo,"5"));
-//        pool.execute(new ProduceRunnable(demo,"6"));
-//        pool.execute(new ProduceRunnable(demo,"7"));
-//        pool.execute(new ProduceRunnable(demo,"8"));
-//        pool.execute(new ProduceRunnable(demo,"9"));
-//        pool.execute(new ProduceRunnable(demo,"10"));
-//        pool.execute(new ProduceRunnable(demo,"11"));
-//        pool.execute(new SaleRunnable(demo));
-//        pool.execute(new SaleRunnable(demo));
-//        pool.execute(new SaleRunnable(demo));
-//        pool.execute(new SaleRunnable(demo));
-//        pool.execute(new SaleRunnable(demo));
-//        pool.execute(new ProduceRunnable(demo,"12"));
-//        pool.execute(new ProduceRunnable(demo,"13"));
+        pool.execute(new ProduceRunnable(demo,"1"));
+        pool.execute(new ProduceRunnable(demo,"2"));
+        pool.execute(new ProduceRunnable(demo,"3"));
+        pool.execute(new ProduceRunnable(demo,"4"));
+        pool.execute(new ProduceRunnable(demo,"5"));
+        pool.execute(new ProduceRunnable(demo,"6"));
+        pool.execute(new ProduceRunnable(demo,"7"));
+        pool.execute(new ProduceRunnable(demo,"8"));
+        pool.execute(new ProduceRunnable(demo,"9"));
+        pool.execute(new ProduceRunnable(demo,"10"));
+        pool.execute(new ProduceRunnable(demo,"11"));
+        pool.execute(new SaleRunnable(demo));
+        pool.execute(new SaleRunnable(demo));
+        pool.execute(new SaleRunnable(demo));
+        pool.execute(new SaleRunnable(demo));
+        pool.execute(new SaleRunnable(demo));
+        pool.execute(new ProduceRunnable(demo,"12"));
+        pool.execute(new ProduceRunnable(demo,"13"));
 
     }
 }

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rex.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".app.MyApplication"
         android:allowBackup="true"
@@ -10,19 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--<activity android:name=".ui.Main2Activity"></activity>-->
-        <activity android:name=".ui.MainActivity" >
+<!--        <activity android:name=".ui.Main3Activity">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+        <!-- <activity android:name=".ui.Main2Activity"></activity> -->
+        <activity android:name=".ui.Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity android:name=".ui.CordinatorLayoutActivity">-->
-        <!--</activity>-->
-        <activity android:name=".ui.TabActivity">
-
-        </activity>
+        <!-- <activity android:name=".ui.CordinatorLayoutActivity"> -->
+        <!-- </activity> -->
+        <activity android:name=".ui.TabActivity" />
     </application>
 
 </manifest>

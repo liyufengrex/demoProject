@@ -16,6 +16,7 @@ import java.util.Map.Entry;
 public class TestHash {
 
     public static void main(String[] args){
+        new TestHash().test123();
     }
 
     public void test123(){
